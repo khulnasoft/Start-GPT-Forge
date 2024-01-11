@@ -95,7 +95,7 @@ jobs:
 
       - name: Run regression tests
         run: |
-          poetry run python -m autogpt &
+          poetry run python -m startgpt &
           cp .env.example .env
           newman run https://raw.githubusercontent.com/khulnasoft/postman/master/Postman%20Collections/agent_protocol_rest.json --folder "Basic User Experience" --env-var "url= http://127.0.0.1:8000" -n 2
           newman run https://raw.githubusercontent.com/khulnasoft/postman/master/Postman%20Collections/agent_protocol_rest.json --folder "Tasks Load Test" --env-var "url= http://127.0.0.1:8000" -n 10
