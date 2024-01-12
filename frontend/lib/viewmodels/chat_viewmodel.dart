@@ -1,9 +1,9 @@
-import 'package:auto_gpt_flutter_client/models/step.dart';
-import 'package:auto_gpt_flutter_client/models/step_request_body.dart';
+import 'package:start_gpt_flutter_client/models/step.dart';
+import 'package:start_gpt_flutter_client/models/step_request_body.dart';
 import 'package:flutter/foundation.dart';
-import 'package:auto_gpt_flutter_client/services/chat_service.dart';
-import 'package:auto_gpt_flutter_client/models/chat.dart';
-import 'package:auto_gpt_flutter_client/models/message_type.dart';
+import 'package:start_gpt_flutter_client/services/chat_service.dart';
+import 'package:start_gpt_flutter_client/models/chat.dart';
+import 'package:start_gpt_flutter_client/models/message_type.dart';
 
 class ChatViewModel with ChangeNotifier {
   final ChatService _chatService;

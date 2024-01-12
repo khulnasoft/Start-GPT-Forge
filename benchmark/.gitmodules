@@ -32,7 +32,7 @@
 	branch = nerfzael-use-local-wrap-library
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/agbenchmark/agbenchmark-frontend.git
+	url = https://github.com/startbenchmark/startbenchmark-frontend.git
 [submodule "agent/Turbo"]
 	path = agent/Turbo
 	url = https://github.com/lc0rp/Start-GPT-Turbo.git

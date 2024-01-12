@@ -1,9 +1,9 @@
-import 'package:auto_gpt_flutter_client/models/task.dart';
-import 'package:auto_gpt_flutter_client/models/task_response.dart';
+import 'package:start_gpt_flutter_client/models/task.dart';
+import 'package:start_gpt_flutter_client/models/task_response.dart';
 import 'package:flutter/foundation.dart';
 import 'package:collection/collection.dart';
-import 'package:auto_gpt_flutter_client/services/task_service.dart';
-import 'package:auto_gpt_flutter_client/models/task_request_body.dart';
+import 'package:start_gpt_flutter_client/services/task_service.dart';
+import 'package:start_gpt_flutter_client/models/task_request_body.dart';
 
 class TaskViewModel with ChangeNotifier {
   final TaskService _taskService;

@@ -1,8 +1,8 @@
-# AutoGPT Flutter Client
+# StartGPT Flutter Client
 
 ## Description
 
-This repository contains the Flutter client for the AutoGPT project. The application facilitates users in discussing various tasks with a single agent. The app is built to be cross-platform and runs on Web, Android, iOS, Windows, and Mac.
+This repository contains the Flutter client for the StartGPT project. The application facilitates users in discussing various tasks with a single agent. The app is built to be cross-platform and runs on Web, Android, iOS, Windows, and Mac.
 
 ## Features
 
@@ -24,12 +24,12 @@ You can access the design document [here](https://docs.google.com/document/d/1S-
 
 1. **Clone the repo:**
 ```
-git clone https://github.com/yourusername/auto_gpt_flutter_client.git
+git clone https://github.com/yourusername/start_gpt_flutter_client.git
 ```
 
 2. **Navigate to the project directory:**
 ```
-cd auto_gpt_flutter_client
+cd start_gpt_flutter_client
 ```
 
 3. **Get Flutter packages:**

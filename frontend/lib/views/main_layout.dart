@@ -1,7 +1,7 @@
-import 'package:auto_gpt_flutter_client/viewmodels/task_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/views/task/task_view.dart';
-import 'package:auto_gpt_flutter_client/views/chat/chat_view.dart';
+import 'package:start_gpt_flutter_client/viewmodels/task_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
+import 'package:start_gpt_flutter_client/views/task/task_view.dart';
+import 'package:start_gpt_flutter_client/views/chat/chat_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 

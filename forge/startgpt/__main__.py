@@ -26,6 +26,6 @@ if __name__ == "__main__":
     port = os.getenv("PORT")
 
     database = startgpt.sdk.db.AgentDB(database_name, debug_enabled=True)
-    agent = startgpt.agent.AutoGPTAgent(database=database, workspace=workspace)
+    agent = startgpt.agent.StartGPTAgent(database=database, workspace=workspace)
 
     agent.start(port=port, router=router)

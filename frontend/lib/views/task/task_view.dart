@@ -1,10 +1,10 @@
-import 'package:auto_gpt_flutter_client/views/task/api_base_url_field.dart';
+import 'package:start_gpt_flutter_client/views/task/api_base_url_field.dart';
 import 'package:flutter/material.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/task_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/views/task/new_task_button.dart';
-import 'package:auto_gpt_flutter_client/views/task/task_list_tile.dart';
+import 'package:start_gpt_flutter_client/viewmodels/task_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
+import 'package:start_gpt_flutter_client/views/task/new_task_button.dart';
+import 'package:start_gpt_flutter_client/views/task/task_list_tile.dart';
 import 'package:provider/provider.dart';
 
 class TaskView extends StatefulWidget {

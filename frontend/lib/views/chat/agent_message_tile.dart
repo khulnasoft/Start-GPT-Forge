@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:auto_gpt_flutter_client/models/chat.dart';
-import 'package:auto_gpt_flutter_client/views/chat/json_code_snippet_view.dart';
+import 'package:start_gpt_flutter_client/models/chat.dart';
+import 'package:start_gpt_flutter_client/views/chat/json_code_snippet_view.dart';
 import 'package:flutter/material.dart';
 
 class AgentMessageTile extends StatefulWidget {

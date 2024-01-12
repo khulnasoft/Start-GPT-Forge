@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI()
 artifacts: List[Dict[str, Any]] = []
 
-with open("agent/gpt-engineer/agbenchmark/config.json", "r") as file:
+with open("agent/gpt-engineer/startbenchmark/config.json", "r") as file:
     config = json.load(file)
     logger.info("Loaded configuration")
 

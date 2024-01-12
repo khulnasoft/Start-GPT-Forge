@@ -1,4 +1,4 @@
-import 'package:auto_gpt_flutter_client/models/message_type.dart';
+import 'package:start_gpt_flutter_client/models/message_type.dart';
 
 /// Represents a chat message related to a specific task.
 class Chat {

@@ -1,12 +1,12 @@
-import 'package:auto_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'views/main_layout.dart';
 import 'package:provider/provider.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/task_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
-import 'package:auto_gpt_flutter_client/services/chat_service.dart';
-import 'package:auto_gpt_flutter_client/services/task_service.dart';
-import 'package:auto_gpt_flutter_client/utils/rest_api_utility.dart';
+import 'package:start_gpt_flutter_client/viewmodels/task_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/chat_viewmodel.dart';
+import 'package:start_gpt_flutter_client/services/chat_service.dart';
+import 'package:start_gpt_flutter_client/services/task_service.dart';
+import 'package:start_gpt_flutter_client/utils/rest_api_utility.dart';
 
 // TODO: Update documentation throughout project for consistency
 void main() {
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
     taskService.loadDeletedTasks();
 
     return MaterialApp(
-      title: 'AutoGPT Flutter Client',
+      title: 'StartGPT Flutter Client',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

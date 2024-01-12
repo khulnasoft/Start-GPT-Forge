@@ -18,7 +18,7 @@ Ever dreamt of becoming the genius behind an AI agent? Dive into the *Start-GPT-
 
 1. **[autopack](https://github.com/AutoPackAI/autopack)**: Equip your agent with the best tools without the fuss!
    
-2. **[agbenchmark](https://github.com/AutoPackAI/Start-GPT-Benchmarks)**: Test your agent against basic tasks to see how you perform!
+2. **[startbenchmark](https://github.com/AutoPackAI/Start-GPT-Benchmarks)**: Test your agent against basic tasks to see how you perform!
    
 3. **[Helicone](https://www.helicone.ai/)**: Log your LLM interactions effortlessly, so you know what your agent is doing.
    

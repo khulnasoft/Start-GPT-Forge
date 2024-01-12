@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:auto_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
+import 'package:start_gpt_flutter_client/viewmodels/api_settings_viewmodel.dart';
 
 class ApiBaseUrlField extends StatelessWidget {
   final TextEditingController controller;

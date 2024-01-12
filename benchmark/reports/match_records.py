@@ -6,7 +6,7 @@ from gql.transport.aiohttp import AIOHTTPTransport
 from gql import gql, Client
 import os
 
-from agbenchmark.reports.processing.report_types import Report, SuiteTest
+from startbenchmark.reports.processing.report_types import Report, SuiteTest
 
 
 def get_reports():

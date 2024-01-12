@@ -1,7 +1,7 @@
 from startgpt.sdk import Agent, AgentDB, Step, StepRequestBody, Workspace
 
 
-class AutoGPTAgent(Agent):
+class StartGPTAgent(Agent):
     """
     The goal of the Forge is to take care of the boilerplate code so you can focus on
     agent design.

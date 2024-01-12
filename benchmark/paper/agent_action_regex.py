@@ -1,8 +1,8 @@
 import re
 
 
-def is_action_auto_gpt(log):
-    """AutoGPTs actions are defined by the presence of the "command" key."""
+def is_action_start_gpt(log):
+    """StartGPTs actions are defined by the presence of the "command" key."""
     return bool(re.search(r'"command"\s*:', log))
 
 

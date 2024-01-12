@@ -12,7 +12,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from agbenchmark.utils.utils import find_absolute_benchmark_path
+from startbenchmark.utils.utils import find_absolute_benchmark_path
 
 app = FastAPI()
 
@@ -30,7 +30,7 @@ app.add_middleware(
 home_path = find_absolute_benchmark_path()
 os.chdir(home_path)
 
-general_command = ["poetry", "run", "agbenchmark", "start", "--backend"]
+general_command = ["poetry", "run", "startbenchmark", "start", "--backend"]
 
 
 @app.get("/run_single_test")
